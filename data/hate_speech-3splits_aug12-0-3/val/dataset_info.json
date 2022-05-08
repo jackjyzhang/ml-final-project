@@ -1,0 +1,93 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 3406094,
+  "description": "",
+  "download_checksums": {
+    "/home2/gridsan/jzhang2/repos/ml-final-project/data/train.csv": {
+      "num_bytes": 2035227,
+      "checksum": "95fa8324a76618b0f67fcc55c32d635280a3ecbb5f5a6b43f858e6ca15328a9d"
+    },
+    "/home2/gridsan/jzhang2/repos/ml-final-project/data/dev.csv": {
+      "num_bytes": 258409,
+      "checksum": "9b32bfa872dd4945be8b77dfef335ab13b9ca0cbb4b95f1d71f765a4415c4686"
+    },
+    "/home2/gridsan/jzhang2/repos/ml-final-project/data/test.csv": {
+      "num_bytes": 252932,
+      "checksum": "79ea7fc2910f596dcb78ffd879525de24368ba1eb7a011e2163a43bdd6efa757"
+    }
+  },
+  "download_size": 2546568,
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "count": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "hate_speech": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "offensive_language": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "neither": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "class": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "tweet": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 5952662,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2723079,
+      "num_examples": 19826,
+      "dataset_name": "csv"
+    },
+    "val": {
+      "name": "val",
+      "num_bytes": 344192,
+      "num_examples": 2478,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 338823,
+      "num_examples": 2479,
+      "dataset_name": "csv"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
